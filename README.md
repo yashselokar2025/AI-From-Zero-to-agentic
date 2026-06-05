@@ -26,6 +26,7 @@ Deep Learning Model Formats
 Model Tracing & Deployment
 
 MLFlow for experimentation
+MIT RNN and Transformer Notes - https://dair-ai.notion.site/Lecture-2-Recurrent-Neural-Networks-and-Transformers-71fb3ba2a24f4b6c8cc77281fc19cfab
 
 🔹 Large Language Models (LLMs)
 
