@@ -123,3 +123,4 @@ AWS (conceptual roadmap)
 ✨ Note
 
 This repository is learning-focused, combining theory, implementation, and system-level thinking for modern AI and Agentic systems.
+NOW You can add the new detailed information if you think it will be the better
