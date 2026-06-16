@@ -1,5 +1,5 @@
 🚀 AI From Zero to Agentic
-
+(GEN AI Cheat Sheet - https://medium.com/@anushka.datascoop/101-gen-ai-cheat-sheets-831e17f1e6a7
 This repository documents my end-to-end journey in Artificial Intelligence, starting from core machine learning concepts and progressing towards advanced LLM systems, RAG architectures, Agentic AI, MLOps, and cloud (AWS).
 
 It serves as a learning hub, reference notebook, and research archive containing hands-on notebooks, conceptual PDFs, labs, and architecture guides related to modern AI systems.
