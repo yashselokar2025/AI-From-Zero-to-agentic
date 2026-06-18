@@ -1,126 +1,111 @@
-🚀 AI From Zero to Agentic
-(GEN AI Cheat Sheet - https://medium.com/@anushka.datascoop/101-gen-ai-cheat-sheets-831e17f1e6a7
-This repository documents my end-to-end journey in Artificial Intelligence, starting from core machine learning concepts and progressing towards advanced LLM systems, RAG architectures, Agentic AI, MLOps, and cloud (AWS).
+# 🚀 AI From Zero to Agentic: The Complete Engineering & Research Hub
 
-It serves as a learning hub, reference notebook, and research archive containing hands-on notebooks, conceptual PDFs, labs, and architecture guides related to modern AI systems.
+> **Maintainer:** Yash Gopal Selokar
+> **Status:** 🚧 Actively evolving — new notebooks, architectures, experiments, and research papers are added regularly.
 
-📌 What This Repository Covers
-🔹 Core Machine Learning & Data Science
+Welcome to my learning hub, reference notebook, and research archive. This repository documents an end-to-end journey in Artificial Intelligence, starting from core machine learning concepts and progressing towards advanced LLM systems, RAG architectures, Agentic AI workflows, MLOps, and scalable cloud infrastructure.
 
-Linear & Polynomial Regression
+It bridges the gap between **academic theory, system-level design, and production-ready implementation.**
 
-Bias–Variance Tradeoff
+### 🔗 Quick Reference Resources
+*   [101 Gen AI Cheat Sheets (Medium)](https://medium.com/@anushka.datascoop/101-gen-ai-cheat-sheets-831e17f1e6a7)
+*   [MIT Lecture 2: RNNs and Transformers (Notion)](https://dair-ai.notion.site/Lecture-2-Recurrent-Neural-Networks-and-Transformers-71fb3ba2a24f4b6c8cc77281fc19cfab)
 
-Feature Scaling & Normalization
+---
 
-EDA, Pandas, NumPy, Matplotlib, Seaborn
+## 📌 Part 1: Domain Knowledge & Lab Archives
+This section contains structured notes, hands-on notebooks, and architectural design patterns.
 
-Evaluation Metrics (MSE, R², ROC, AUC)
+### 🔹 Core Machine Learning & Deep Learning
+*   **Math & Stats:** Linear & Polynomial Regression, Bias–Variance Tradeoff, Evaluation Metrics (MSE, R², ROC, AUC).
+*   **Data Processing:** Feature Scaling & Normalization, EDA, Pandas, NumPy, Matplotlib, Seaborn.
+*   **Deep Learning:** MIT Deep Learning Lecture Notes, Model Formats, Model Tracing & Deployment.
 
-🔹 Deep Learning Foundations
+### 🔹 Large Language Models (LLMs) & MLOps
+*   **Training & Tuning:** Fine-tuning LLMs, PEFT, and LoRA.
+*   **Evaluation:** LLM Evaluation & Observability (Langfuse, MLflow).
+*   **Ops & Cloud:** MLflow Tracking, Model Registry, FastAPI Deployment, AWS Roadmap for AI/ML.
+*   **Prompting:** Prompt Management & Lifecycle Versioning.
 
-MIT Deep Learning Lecture Notes
+### 🔹 RAG & Agentic AI Systems
+*   **RAG:** Architectures & Design Patterns, Chunking Strategies, Re-rankers, Vector Databases, Query Resolution.
+*   **Agents:** Agentic AI Design Patterns, Multi-Agent Systems (LangGraph), Agentic RAG.
+*   **Protocols:** Model Context Protocol (MCP) Client–Server implementations, A2A (Agent-to-Agent) vs. MCP.
 
-Deep Learning Model Formats
+---
 
-Model Tracing & Deployment
+## 🏗️ Part 2: Applied Projects & Implementations
+*Theory applied to real-world software engineering:*
 
-MLFlow for experimentation
-MIT RNN and Transformer Notes - https://dair-ai.notion.site/Lecture-2-Recurrent-Neural-Networks-and-Transformers-71fb3ba2a24f4b6c8cc77281fc19cfab
+*   **MockMentor AI:** An intelligent interview simulation system integrating real-time coding evaluation, voice interaction, and agentic reasoning.
+*   **CCTV AI Pipeline:** A highly complex video data ingestion and querying architecture allowing users to interact with physical security feeds via a conversational LLM chatbot.
+*   **Smart Admission & DIMS:** Web-based tracking and data management applications optimized for high-throughput institutional use.
 
-🔹 Large Language Models (LLMs)
+---
 
-Fine-tuning LLMs
+## 📚 Part 3: Awesome LLM Systems Paper List
 
-PEFT & LoRA
+> **🌟 Acknowledgments & Original Source:** 
+> The comprehensive categorization and structural baseline of this research archive are heavily inspired by and adapted from the phenomenal work by **[AmberLJC/LLMSys-PaperList](https://github.com/AmberLJC/LLMSys-PaperList)**. Please visit and star the original repository for their master list.
 
-LLM Evaluation using MLflow
+This section tracks the bleeding-edge research papers and technical reports that inform the architectures built in this repository. I have added a "My Notes" column to track how these papers apply to my personal projects.
 
-Prompt Management & Versioning
+### 1. LLM Training Systems
+*Techniques for scaling pre-training, fine-tuning, and alignment across massive GPU clusters.*
 
-Langfuse Observability
+| Year | Title / Link | Venue | My Notes / Project Relevance |
+| :--- | :--- | :--- | :--- |
+| **2024** | [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs]() | NSDI '24 | *Architecture considerations for robust AWS cloud training.* |
+| **2024** | [NeMo-Aligner: Scalable Toolkit for Efficient Model Alignment]() | ArXiv | *Insights for fine-tuning open-source models.* |
+| **2023** | [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models]() | SC '20 | *Core foundation for understanding distributed memory.* |
+| **2023** | [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates]() | SOSP '23 | |
 
-🔹 Retrieval-Augmented Generation (RAG)
+### 2. LLM Inference & Serving Systems
+*Research on low-latency, high-throughput model serving (vLLM, Continuous Batching, PagedAttention).*
 
-RAG Architectures & Design Patterns
+| Year | Title / Link | Venue | My Notes / Project Relevance |
+| :--- | :--- | :--- | :--- |
+| **2023** | [Efficient Memory Management for LLM Serving with PagedAttention (vLLM)]() | SOSP '23 | *Crucial for reducing latency in real-time apps like MockMentor AI.* |
+| **2023** | [Orca: A Distributed Serving System for Transformer-Based Generative Models]() | OSDI '22 | *Continuous batching concepts.* |
+| **2024** | [Speculative Decoding: Fast Inference from Large Language Models]() | ICML '23 | |
 
-Vector Databases
+### 3. Retrieval-Augmented Generation (RAG) & Vector Systems
+*Optimizing vector search, context scaling, and retrieval frameworks.*
 
-Re-rankers for RAG
+| Year | Title / Link | Venue | My Notes / Project Relevance |
+| :--- | :--- | :--- | :--- |
+| **2023** | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks]() | NeurIPS | *The foundational RAG paper.* |
+| **2024** | [Lost in the Middle: How Language Models Use Long Contexts]() | TACL | *Helped refine chunking strategies for document retrieval.* |
+| **2024** | [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection]() | ICLR '24 | *Exploring this for advanced Agentic RAG loops.* |
 
-Chunking Strategies
+### 4. Agentic & Multi-Modal Frameworks
+*Research powering autonomous agents, tool use, and multi-modal integrations.*
 
-Query Resolution using RAG
+| Year | Title / Link | Venue | My Notes / Project Relevance |
+| :--- | :--- | :--- | :--- |
+| **2023** | [ReAct: Synergizing Reasoning and Acting in Language Models]() | ICLR '23 | *Core methodology used in building LangGraph agents.* |
+| **2024** | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation]() | ArXiv | *Comparing A2A patterns with MCP.* |
+| **2024** | [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection]() | ArXiv | *Concepts directly applicable to the CCTV AI Pipeline.* |
 
-Top RAG Frameworks Comparison
+### 5. Industrial LLM Technical Reports
+*Major architecture disclosures from leading AI labs.*
 
-🔹 Agentic AI Systems
+| Year | Report Title / Link | Org | My Notes / Project Relevance |
+| :--- | :--- | :--- | :--- |
+| **2024** | [DeepSeek-V3 Technical Report]() | DeepSeek | *Analyzing Mixture of Experts (MoE) efficiency.* |
+| **2024** | [The Llama 3 Herd of Models]() | Meta | |
+| **2024** | [Qwen Technical Report]() | Alibaba | |
 
-Agentic AI Design Patterns
+---
 
-Multi-Agent Systems using LangGraph
+## 🛠️ Tech Stack & Tools
+**Languages:** Python, SQL  
+**Data & ML:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn  
+**AI Frameworks:** LangChain, LangGraph  
+**MLOps & Backend:** MLflow, FastAPI  
+**Infrastructure:** Vector Databases, AWS 
 
-Agentic RAG Architectures
+## 💡 How to Use This Repo
+Feel free to explore the code, copy the architectures, or read through the curated paper list. If you find a paper or a framework that fits well into these categories, feel free to open a Pull Request!
 
-A2A vs MCP
-
-Model Context Protocol (MCP)
-
-MCP Client–Server using LangChain
-
-🔹 MLOps & Deployment
-
-MLflow Tracking & Model Registry
-
-FastAPI Model Deployment
-
-Prompt Lifecycle Management
-
-Experiment Tracking & Tracing
-
-🔹 Cloud & Industry Knowledge
-
-AWS Roadmap for AI/ML
-
-AI in E-commerce & Cybersecurity
-
-Comparative Model Studies (DeepSeek vs Qwen)
-
-🧠 Purpose of This Repository
-
-📘 Structured learning notes
-
-🧪 Hands-on experiments & labs
-
-🧩 Understanding modern AI system design
-
-🏗️ Building production-ready AI architectures
-
-📈 Preparing for real-world AI engineering roles
-
-🛠️ Tech Stack & Tools
-
-Python
-
-NumPy, Pandas, Matplotlib, Seaborn
-
-Scikit-learn
-
-LangChain & LangGraph
-
-MLflow
-
-FastAPI
-
-Vector Databases
-
-AWS (conceptual roadmap)
-
-📍 Status
-
-🚧 Actively evolving — new notebooks, architectures, and experiments are added regularly as part of my AI learning journey.
-
-✨ Note
-
-This repository is learning-focused, combining theory, implementation, and system-level thinking for modern AI and Agentic systems.
-NOW You can add the new detailed information if you think it will be the better
+*This repository combines rigorous academic theory, practical implementation, and system-level thinking to build the next generation of AI.*
