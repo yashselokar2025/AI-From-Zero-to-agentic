@@ -55,46 +55,46 @@ This section tracks the bleeding-edge research papers and technical reports that
 
 | Year | Title / Link | Venue | My Notes / Project Relevance |
 | :--- | :--- | :--- | :--- |
-| **2024** | [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs]() | NSDI '24 | *Architecture considerations for robust AWS cloud training.* |
-| **2024** | [NeMo-Aligner: Scalable Toolkit for Efficient Model Alignment]() | ArXiv | *Insights for fine-tuning open-source models.* |
-| **2023** | [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models]() | SC '20 | *Core foundation for understanding distributed memory.* |
-| **2023** | [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates]() | SOSP '23 | |
+| **2024** | [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/abs/2402.15627) | NSDI '24 | *Architecture considerations for robust AWS cloud training.* |
+| **2024** | [NeMo-Aligner: Scalable Toolkit for Efficient Model Alignment](https://arxiv.org/abs/2405.01481) | ArXiv | *Insights for fine-tuning open-source models.* |
+| **2020** | [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054) | SC '20 | *Core foundation for understanding distributed memory.* |
+| **2023** | [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://dl.acm.org/doi/10.1145/3600006.3613152) | SOSP '23 | |
 
 ### 2. LLM Inference & Serving Systems
 *Research on low-latency, high-throughput model serving (vLLM, Continuous Batching, PagedAttention).*
 
 | Year | Title / Link | Venue | My Notes / Project Relevance |
 | :--- | :--- | :--- | :--- |
-| **2023** | [Efficient Memory Management for LLM Serving with PagedAttention (vLLM)]() | SOSP '23 | *Crucial for reducing latency in real-time apps like MockMentor AI.* |
-| **2023** | [Orca: A Distributed Serving System for Transformer-Based Generative Models]() | OSDI '22 | *Continuous batching concepts.* |
-| **2024** | [Speculative Decoding: Fast Inference from Large Language Models]() | ICML '23 | |
+| **2023** | [Efficient Memory Management for LLM Serving with PagedAttention (vLLM)](https://arxiv.org/abs/2309.06180) | SOSP '23 | *Crucial for reducing latency in real-time apps like MockMentor AI.* |
+| **2022** | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu) | OSDI '22 | *Continuous batching concepts.* |
+| **2023** | [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/abs/2211.17192) | ICML '23 | |
 
 ### 3. Retrieval-Augmented Generation (RAG) & Vector Systems
 *Optimizing vector search, context scaling, and retrieval frameworks.*
 
 | Year | Title / Link | Venue | My Notes / Project Relevance |
 | :--- | :--- | :--- | :--- |
-| **2023** | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks]() | NeurIPS | *The foundational RAG paper.* |
-| **2024** | [Lost in the Middle: How Language Models Use Long Contexts]() | TACL | *Helped refine chunking strategies for document retrieval.* |
-| **2024** | [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection]() | ICLR '24 | *Exploring this for advanced Agentic RAG loops.* |
+| **2020** | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) | NeurIPS | *The foundational RAG paper.* |
+| **2023** | [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) | TACL | *Helped refine chunking strategies for document retrieval.* |
+| **2024** | [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511) | ICLR '24 | *Exploring this for advanced Agentic RAG loops.* |
 
 ### 4. Agentic & Multi-Modal Frameworks
 *Research powering autonomous agents, tool use, and multi-modal integrations.*
 
 | Year | Title / Link | Venue | My Notes / Project Relevance |
 | :--- | :--- | :--- | :--- |
-| **2023** | [ReAct: Synergizing Reasoning and Acting in Language Models]() | ICLR '23 | *Core methodology used in building LangGraph agents.* |
-| **2024** | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation]() | ArXiv | *Comparing A2A patterns with MCP.* |
-| **2024** | [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection]() | ArXiv | *Concepts directly applicable to the CCTV AI Pipeline.* |
+| **2023** | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | ICLR '23 | *Core methodology used in building LangGraph agents.* |
+| **2023** | [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155) | ArXiv | *Comparing A2A patterns with MCP.* |
+| **2023** | [Video-LLaVA: Learning United Visual Representation by Alignment Before Projection](https://arxiv.org/abs/2311.10122) | ArXiv | *Concepts directly applicable to the CCTV AI Pipeline.* |
 
 ### 5. Industrial LLM Technical Reports
 *Major architecture disclosures from leading AI labs.*
 
 | Year | Report Title / Link | Org | My Notes / Project Relevance |
 | :--- | :--- | :--- | :--- |
-| **2024** | [DeepSeek-V3 Technical Report]() | DeepSeek | *Analyzing Mixture of Experts (MoE) efficiency.* |
-| **2024** | [The Llama 3 Herd of Models]() | Meta | |
-| **2024** | [Qwen Technical Report]() | Alibaba | |
+| **2024** | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | DeepSeek | *Analyzing Mixture of Experts (MoE) efficiency.* |
+| **2024** | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.09298) | Meta | |
+| **2023** | [Qwen Technical Report](https://arxiv.org/abs/2309.16609) | Alibaba | |
 
 ---
 
@@ -109,3 +109,6 @@ This section tracks the bleeding-edge research papers and technical reports that
 Feel free to explore the code, copy the architectures, or read through the curated paper list. If you find a paper or a framework that fits well into these categories, feel free to open a Pull Request!
 
 *This repository combines rigorous academic theory, practical implementation, and system-level thinking to build the next generation of AI.*
+
+---
+**Maintained by Yash Gopal Selokar**
