@@ -167,5 +167,7 @@ Feel free to explore the code, copy the architectures, or read through the curat
 
 *This repository combines rigorous academic theory, practical implementation, and system-level thinking to build the next generation of AI.*
 
----
-**Maintained by Yash Gopal Selokar**
+
+**Maintained by Yash Selokar**
+--
+**New Trending Technology Coming Soon**
